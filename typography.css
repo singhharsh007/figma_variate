@@ -1,0 +1,872 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+body {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    padding: 0;
+    font-size: 16px;
+    line-height: 2;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    background: #fff;
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+.wrapper {
+    max-width: 1198px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+
+h1 {
+
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 119%;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 119%;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+h3 {
+
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-size: 36px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 45px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+h4 {
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+h5 {
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696969;
+}
+
+
+h6 {
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000;
+    text-align: center;
+}
+
+
+
+p {
+    font-family: 'Mulish';
+
+    font-family: 'Questrial', sans-serif;
+    ;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #696969;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    text-transform: initial;
+    padding: 0;
+    text-decoration: none;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+a {
+    text-transform: initial;
+    padding: 0;
+    text-decoration: none;
+    margin-bottom: 15px;
+    max-width: 100%;
+    color: #fff;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.cta-button:hover {
+    border: 1px solid #1F7AAD;
+    color: #1F7AAD;
+    background-color: white;
+}
+
+
+.cta-button {
+    border: 1px solid #1F7AAD;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #fff;
+    padding: 9px 60px;
+    background: #1F7AAD;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+input {
+    font-family: 'Questrial', sans-serif;
+    ;
+    height: 52px;
+    border: solid 1px;
+    border-color: #dbdee1;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    color: #777;
+
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 40px 32px -4px rgba(0, 0, 0, 0.13);
+    border: solid 1px var(--dark-blue-15);
+    background-color: #fff;
+}
+
+.button-1{
+    width:100%;
+    max-width: 246px;
+    margin:0 auto;
+  
+}
+
+.cta-button2:hover {
+    border: 1px solid #1F7AAD;
+    color: #1F7AAD;
+    background-color: white;
+}
+
+
+.cta-button2 {
+    border: 1px solid #1F7AAD;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #fff;
+    padding: 9px 98px;
+    background: #1F7AAD;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*tab view*/
+
+
+@media (min-width: 768px) and (max-width: 1139px) {
+
+    h1 {
+        font-family: 'Questrial', sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 119%;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+
+    h2 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 119%;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+
+    h3 {
+
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 32px;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 45px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    h4 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 26px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+
+    h5 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        text-align: left;
+        color: #696969;
+    }
+
+
+    h6 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: -0.5px;
+        color: #000;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Mulish';
+
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #696969;
+    }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+     a {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #fff;
+    }
+
+    .cta-button:hover {
+        border: 1px solid #1F7AAD;
+        color: #1F7AAD;
+        background: white;
+    }
+
+
+    .cta-button {
+        border: 1px solid #1F7AAD;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #fff;
+        padding: 9px 60px;
+        background: #1F7AAD;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+    input {
+        font-family: 'Questrial', sans-serif;
+        ;
+        height: 52px;
+        border: solid 1px;
+        border-color: #dbdee1;
+        background-color: #fff;
+        font-size: 16px;
+        line-height: 2;
+        color: #777;
+
+        text-align: center;
+    }
+
+
+
+    .cta-button2:hover {
+        border: 1px solid #1F7AAD;
+        color: #1F7AAD;
+        background: white;
+    }
+
+    .cta-button2 {
+        border: 1px solid #1F7AAD;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #fff;
+        padding: 9px 98px;
+        background: #1F7AAD;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+}
+
+
+
+
+/*mobile view*/
+
+@media (max-width: 768px) {
+
+
+    h1 {
+
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 119%;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    h2 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 119%;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+
+    h3 {
+
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 28px;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 45px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    h4 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 22px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+
+    h5 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        text-align: left;
+        color: #696969;
+    }
+
+
+    h6 {
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: -0.5px;
+        line-height: 15px;
+        color: #000;
+        text-align: center;
+    }
+
+    p {
+
+        font-family: 'Questrial', sans-serif;
+        ;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 15px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #696969;
+    }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    a {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #fff;
+    }
+
+    .cta-button:hover {
+        border: 1px solid #1F7AAD;
+        color: #1F7AAD;
+        background: white;
+    }
+
+
+    .cta-button {
+        border: 1px solid #1F7AAD;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #fff;
+        padding: 9px 60px;
+        background: #1F7AAD;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+
+    input {
+        font-family: 'Questrial', sans-serif;
+        ;
+        height: 52px;
+        border: solid 1px;
+        border-color: #dbdee1;
+        background-color: #fff;
+        font-size: 16px;
+        line-height: 2;
+        color: #777;
+        text-align: center;
+    }
+
+
+    form {
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 40px 32px -4px rgba(0, 0, 0, 0.13);
+        border: solid 1px var(--dark-blue-15);
+        background-color: #fff;
+    }
+
+
+
+    .cta-button2:hover {
+        border: 1px solid #1F7AAD;
+        color: #1F7AAD;
+        background: white;
+    }
+
+    .cta-button2 {
+        border: 1px solid #1F7AAD;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #fff;
+        padding: 9px 98px;
+        background: #1F7AAD;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+/*Two Column Adjust
+========================================================*/
+.row-fluid .two-col-adjust>span {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    -wevkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-right: -2.5%;
+}
+
+body .row-fluid .two-col-adjust span>.hs_cos_wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: 46%;
+    -webkit-flex-basis: 46%;
+    float: left;
+    margin-right: 4%;
+    margin-top: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media(max-width:767px) {
+    body .row-fluid .two-col-adjust span>.hs_cos_wrapper {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        /* max-width:379px; */
+        width: 100%;
+        margin: 10px 0;
+        float: none
+    }
+
+    .row-fluid .two-col-adjust>span {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+/*==================================================
+Three Col Adjust
+==================================================*/
+.row-fluid .three-col-adjust>span {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    -wevkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-right: -3.2%;
+}
+
+body .row-fluid .three-col-adjust span>.hs_cos_wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: 29.96%;
+    -webkit-flex-basis: 29.96%;
+    float: left;
+    margin-right: 3.2%;
+    margin-top: 2.43%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+@media (max-width:767px) {
+    .row-fluid .three-col-adjust>span {
+        display: block;
+        margin-right: 0;
+    }
+
+    body .row-fluid .three-col-adjust span>.hs_cos_wrapper {
+        display: block;
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        max-width: 379px;
+        width: 100%;
+        margin: 30px auto 0;
+        float: none;
+    }
+}
+
+/*==================================================
+Four Col Adjust
+==================================================*/
+.row-fluid .four-col-adjust>span {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    -wevkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-right: -2.565%;
+}
+
+body .row-fluid .four-col-adjust span>.hs_cos_wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: 22.5%;
+    -webkit-flex-basis: 22.5%;
+    float: left;
+    margin-right: 2.5%;
+    margin-top: 2.43%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .row-fluid .four-col-adjust>span {
+        display: block;
+        margin-right: 0;
+    }
+
+    body .row-fluid .four-col-adjust span>.hs_cos_wrapper {
+        display: block;
+        flex-basis: 100%;
+        width: 100%;
+        -webkit-flex-basis: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .row-fluid .four-col-adjust>span {
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    body .row-fluid .four-col-adjust span>.hs_cos_wrapper {
+        display: block;
+        flex-basis: 50%;
+        width: 50%;
+        -webkit-flex-basis: 50%;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+/*==================================================
+Five Col Adjust
+==================================================*/
+.row-fluid .five-col-adjust>span {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    -wevkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-right: -2.565%;
+}
+
+body .row-fluid .five-col-adjust span>.hs_cos_wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: 17.5%;
+    -webkit-flex-basis: 17.5%;
+    float: left;
+    margin-right: 2.5%;
+    margin-top: 2.43%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .row-fluid .five-col-adjust>span {
+        display: block;
+        margin-right: 0;
+    }
+
+    body .row-fluid .five-col-adjust span>.hs_cos_wrapper {
+        display: block;
+        flex-basis: 100%;
+        width: 100%;
+        -webkit-flex-basis: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+}
+
+/*==================================================
+Six Col Adjust
+==================================================*/
+.row-fluid .six-col-adjust>span {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    -wevkit-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-right: -2.565%;
+}
+
+body .row-fluid .six-col-adjust span>.hs_cos_wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: 14%;
+    -webkit-flex-basis: 14%;
+    float: left;
+    margin-right: 2.5%;
+    margin-top: 2.43%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .row-fluid .six-col-adjust>span {
+        display: flex;
+        /* display: block;
+margin-right: 0; */
+    }
+
+    body .row-fluid .six-col-adjust span>.hs_cos_wrapper {
+        display: flex;
+        flex-basis: 25%;
+        width: 24%;
+        -webkit-flex-basis: 25%;
+        /* display: block;
+flex-basis: 100%;
+width: 100%;
+-webkit-flex-basis: 100%;
+margin: 0;
+margin-top: 30px; */
+    }
+}
